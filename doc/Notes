@@ -1,0 +1,9 @@
+
+Problem:
+Cannot resolve symbol 'play' error with Play Framework 2.4.x and IntellijIdea
+
+Solution:
+Here are the steps that I followed:
+-Create a play-java project using activator.
+-Import that project as an SBT project to Intellij Idea.
+-Right click on project then select "Add Framework Support" and then select "Play 2.x"
